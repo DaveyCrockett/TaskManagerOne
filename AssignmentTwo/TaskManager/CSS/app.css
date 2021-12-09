@@ -1,0 +1,43 @@
+
+.main-content{
+    display: flex;
+}
+
+.main-content .section-list{
+    flex: 5;
+    border: 1px solid red;
+}
+
+.main-content .section-form{
+    flex: 3;
+    border: 1px solid blue;
+}
+
+h1{
+    color: darkblue;
+}
+
+.my-control{
+    display: block;
+    padding: 5px 20px;
+    margin-bottom: 5px;
+}
+
+.my-control label{
+    display: block;
+    width: 90px;
+    text-align: right;
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.priorityExclamation{
+    font-size: 18pt;
+    cursor: pointer;
+}
+
+#iPriority.fas {
+    color: red;
+}
